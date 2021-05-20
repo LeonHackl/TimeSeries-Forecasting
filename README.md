@@ -7,8 +7,7 @@ All of the coding related work is done in `Python` using `JupyterLab`. For model
 
 ## To-Do
 - ~Part 1: Data preparation~
-- Part 2: ARIMA model & forecasting
-  - Prediction Intervals
-- Part 3: VAR model & forecasting
+- ~Part 2: ARIMA model & forecasting~
+- ~Part 3: VAR model & forecasting~
 - Part 4: RandomForest algorithm & forecasting
 - Part 5: Forecast comparison
