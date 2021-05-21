@@ -6,6 +6,9 @@ Comparing classic econometric forecasting models like autoregressive-integrated-
 #### The Box-Jenkins Method
 The Box-Jenkins method refers to the iterative application of the following three steps:
 - **Identification:** Using plots of the data, autocorrelations, partial autocorrelations, and other information, a class of simple ARIMA models is selected. This amounts to estimating appropriate values for p, d, and q.
+- **Estimation:** The parameters of the selected model are estimated using maximum likelihood
+techniques as outlined in Box-Jenkins (1976).
+- **Diagnostic Checking:** The fitted model is checked for inadequacies by considering the autocorrelations of the residual series (the series of residual, or error, values).
 
 All of the coding related work is done in `Python` using `JupyterLab`. For modelling and computation of the forecasts the `statsmodels` module is used. All computations are done locally on the central-processing-unit (CPU).
 
