@@ -11,10 +11,3 @@ techniques as outlined in Box-Jenkins (1976).
 - **Diagnostic Checking:** The fitted model is checked for inadequacies by considering the autocorrelations of the residual series (the series of residual, or error, values).
 
 All of the coding related work is done in `Python` using `JupyterLab`. For modelling and computation of the forecasts the `statsmodels` module is used. All computations are done locally on the central-processing-unit (CPU).
-
-## To-Do
-- ~Part 1: Data preparation~
-- ~Part 2: ARIMA model & forecasting~
-- ~Part 3: VAR model & forecasting~
-- Part 4: RandomForest algorithm & forecasting
-- Part 5: Forecast comparison
